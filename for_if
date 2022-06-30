@@ -1,0 +1,12 @@
+# User enter <a> count of numbers,
+# Program must find count of positive numbers
+
+a = int(input("Количество чисел: "))
+b = 0
+
+for i in range(1,a+1):
+    num = int(input("Число: "))
+    if num > 0:
+        b+=1
+
+print(f"Количество положительных чисел: {b}")
