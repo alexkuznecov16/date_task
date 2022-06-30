@@ -1,0 +1,18 @@
+# Написать функцию date, принимающую 3 аргумента — день, месяц и год.
+# Вернуть True, если такая дата есть в нашем календаре, и False иначе.
+
+
+
+class date_of_date():
+    class date2():
+        def date(d,m,y):
+            if d > 0 and d < 32 and m > 0 and m < 13 and y > 0 and y < 2023:
+                return True
+            else:
+                return False
+
+        d = int(input("Day: "))
+        m = int(input("Month: "))
+        y = int(input("Year: "))
+
+        print(date(d,m,y))
